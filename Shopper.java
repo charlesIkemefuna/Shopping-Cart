@@ -11,8 +11,6 @@ public class Shopper {
 	private static NumberFormat formatter;//this numberFormat object will determine currency for item prices
 	
 	public static void main(String[]args){
-		
-		//System.out.println(sp.buy3ForThePriceOfTwo(6, 2.00));
 		System.out.println("WELCOME TO MY STORE");
 		totalItems=getNumberOfItems("How many items do you want to buy?");
 		items=new Item[totalItems];
