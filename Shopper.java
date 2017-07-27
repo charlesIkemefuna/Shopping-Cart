@@ -7,8 +7,6 @@ import java.util.Locale;
 
 public class Shopper {
 	private static int totalItems;
-	Item sp=new Item();
-	
 	private static Item[]items;//declare array to hold store items
 	private static NumberFormat formatter;//this numberFormat object will determine currency for item prices
 	
@@ -103,7 +101,6 @@ public class Shopper {
 	private static int getItemQuantity(String item){
 		System.out.print(item);
 		Scanner sc=new Scanner(System.in);
-		//buy3ForThePriceOfTwo();
 		return sc.nextInt();
 	}
 	private static int getNumberOfItems(String item){
@@ -111,5 +108,5 @@ public class Shopper {
 		Scanner sc=new Scanner(System.in);
 		return sc.nextInt();
 	}
-//talkingcareers@itv.com
+
 }
